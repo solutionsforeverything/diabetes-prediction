@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Excercise">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/cardview_shadow_start_color"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="348dp"
+                android:layout_height="42dp"
+                android:layout_marginStart="86dp"
+                android:layout_marginLeft="86dp"
+                android:fontFamily="serif"
+                android:text="   EXCERCISE"
+                android:textColor="#C3CF12E4"
+                android:textSize="36sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="133dp" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="179dp"
+                app:srcCompat="@drawable/walk"
+                tools:srcCompat="@drawable/walk" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="172dp"
+                android:text="                                                                                                           Walking : You can meet your recommended minimum target for aerobic fitness by going for a brisk 30-minute walk five days a week.  According to a 2014 review, walking can help people with type 2 diabetes lower their blood sugar levels and lose weight."
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/cycle" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="172dp"
+                android:text="                                                                                                           Cycling : If you have lower joint pain, consider choosing low-impact exercise. Cycling, for example, can help you meet your fitness goals while minimizing strain on your joints."
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/swim" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="172dp"
+                android:text="                                                                                                           Swimming : Aquatic activities provide another joint-friendly exercise option. For example, swimming, water aerobics, aqua jogging, and other aquatic activities can give your heart, lungs, and muscles a workout, while putting little stress on your joints."
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/sports" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="172dp"
+                android:text="                                                                                                           Sports : Many recreational sports offer a good aerobic workout. Consider trying basketball, soccer, softball, pairs tennis, or ultimate frisbee."
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/weight" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="172dp"
+                android:text="                                                                                                           Weightlifting : Weightlifting and other strengthening activities help build your muscle mass, which can increase the number of calories you burn each day. Strength training may also help improve your blood sugar control, reports the ADA."
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/calisthenics" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="172dp"
+                android:text="                                                                                                           Calisthenics : In calisthenics, you use your own body weight to strengthen your muscles. Common calisthenic exercises include pushups, pullups, squats, lunges, and abdominal crunches."
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/yoga" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="172dp"
+                android:text="                                                                                                              Yoga : According to a 2016 review, yoga can help people with type 2 diabetes manage their blood sugar, cholesterol levels, and weight. It might also help lower your blood pressure, improve the quality of your sleep, and boost your mood."
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/pilates" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="172dp"
+                android:text="                                                                                                           Pilates : Pilates is a popular fitness program that’s designed to improve core strength, coordination, and balance. According to a recent study of older women with type 2 diabetes, it may also help improve blood sugar control."
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Home page" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
